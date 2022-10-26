@@ -14,8 +14,7 @@ public class Main {
         if (universityAge) {
             System.out.println("Если возраст равен " + age + ", было бы неплохо учиться в университете.");
         }
-        boolean jobAge = age > 24;
-        if (jobAge) {
+       else  {
             System.out.println("Если возраст равен " + age + ", пора начинать трудовую деятельность.");
         }
         }
