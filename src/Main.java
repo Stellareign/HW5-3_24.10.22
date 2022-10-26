@@ -1,21 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Домашка 5, часть 3, задача 1:");
-        int age = 28;
-        boolean kindergartenAge = age >= 2 && age <=7;
-        if (kindergartenAge) {
-            System.out.println("Если возраст равен " + age + ", ребёнок должен ходить в детский сад.");
+        System.out.println("Домашка 5, часть 3, задача 3:");
+        int one = -1;
+        int two = -5;
+        int free = 0;
+        boolean maxNumber1 = one >= two && one >= 3; // 1
+        boolean maxNumber2 = two >= one && two >= free; // 2
+        boolean maxNumber3 = free >= one && free >= two; // 3
+             if (maxNumber1) {
+            System.out.println("Число " + one + " наибольшее");
         }
-        boolean schoolAge = age >= 7 && age <=18;
-        if (schoolAge) {
-            System.out.println("Если возраст равен " + age + ", ребёнок должен ходить в школу.");
+        if (maxNumber2) {
+            System.out.println("Число " + two + " наибольшее");
         }
-        boolean universityAge = age >= 18 && age <=24;
-        if (universityAge) {
-            System.out.println("Если возраст равен " + age + ", было бы неплохо учиться в университете.");
-        }
-       else  {
-            System.out.println("Если возраст равен " + age + ", пора начинать трудовую деятельность.");
-        }
+        if (maxNumber3) {
+                System.out.println("Число " + free + " наибольшее");
+            }
+
         }
     }
