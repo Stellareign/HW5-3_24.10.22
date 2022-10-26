@@ -13,7 +13,7 @@ public class Main {
         if (maxNumber2) {
             System.out.println("Число " + two + " наибольшее");
         }
-        if (maxNumber3) {
+        else {
                 System.out.println("Число " + free + " наибольшее");
             }
 
