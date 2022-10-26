@@ -14,8 +14,7 @@ public class Main {
         if (independentAge) {
             System.out.println("Если возраст равен " + age + ", ребёнку можно кататься на атракционах без сопровождения взрослых.");
         }
-        boolean adultAge = age >= 18;
-        if (adultAge) {
+       else  {
             System.out.println("Если возраст равен " + age + ", то человек уже сам себе хозяин.");
         }
         }
