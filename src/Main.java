@@ -1,22 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Домашка 5, часть 3, задача 1:");
+        System.out.println("Домашка 5, часть 3, задача 2:");
         int age = 28;
-        boolean kindergartenAge = age >= 2 && age <=7;
-        if (kindergartenAge) {
-            System.out.println("Если возраст равен " + age + ", ребёнок должен ходить в детский сад.");
+        boolean ageIsSmallForRides = age < 5;
+        if (ageIsSmallForRides) {
+            System.out.println("Если возраст равен " + age + ", ребёнку ещё рано кататься на аттаракционах.");
         }
-        boolean schoolAge = age >= 7 && age <=18;
-        if (schoolAge) {
-            System.out.println("Если возраст равен " + age + ", ребёнок должен ходить в школу.");
+        boolean attractionWithAdultAge = age >= 5 && age <14;
+        if (attractionWithAdultAge) {
+            System.out.println("Если возраст равен " + age + ", ребёнок может кататься на аттаркционах в сопровождении взрослого.");
         }
-        boolean universityAge = age >= 18 && age <=24;
-        if (universityAge) {
-            System.out.println("Если возраст равен " + age + ", было бы неплохо учиться в университете.");
+        boolean independentAge = age >= 14 && age < 18;
+        if (independentAge) {
+            System.out.println("Если возраст равен " + age + ", ребёнку можно кататься на атракционах без сопровождения взрослых.");
         }
-        boolean jobAge = age > 24;
-        if (jobAge) {
-            System.out.println("Если возраст равен " + age + ", пора начинать трудовую деятельность.");
+        boolean adultAge = age >= 18;
+        if (adultAge) {
+            System.out.println("Если возраст равен " + age + ", то человек уже сам себе хозяин.");
         }
         }
     }
